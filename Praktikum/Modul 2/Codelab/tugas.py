@@ -1,3 +1,5 @@
+# Tugas 2 Codelab
+
 expenses = [
 {'tanggal': '2023-07-25', 'deskripsi': 'Makan Siang', 'jumlah': 50000},
 {'tanggal': '2023-07-25', 'deskripsi': 'Transportasi', 'jumlah': 25000},

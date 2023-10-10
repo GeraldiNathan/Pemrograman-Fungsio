@@ -1,3 +1,5 @@
+# Praktikum Modul 2
+
 import random
 
 def create_board(width, default_char='-'):
