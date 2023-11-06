@@ -12,17 +12,17 @@ movies = [
     {"title": "The Last Duel", "year": 2021, "rating": 7.0, "genre": "Drama"},
 ]
 
-# a. Menampilkan data dari film yang dipilih (data berisi title, year, rating, dan genre)
+# Function Tampil Data
 def get_movie_data(title):
     movie = next((m for m in movies if m["title"] == title), None)
     return movie
 
-# b. Jumlah film berdasarkan genre
+# Count Movie by genre menggunakan filter dan list
 def count_movies_by_genre(genre):
     count = len(list(filter(lambda movie: movie["genre"] == genre, movies)))
     return count
 
-# c. Rata-rata rating film berdasarkan tahun rilis
+# Function avarage rating by years
 def average_rating_by_year(year):
     movies_of_year = list(filter(lambda movie: movie["year"] == year, movies))
     if not movies_of_year:
@@ -30,7 +30,7 @@ def average_rating_by_year(year):
     total_rating = sum(map(lambda movie: movie["rating"], movies_of_year))
     return total_rating / len(movies_of_year)
 
-# d. Film dengan rating tertinggi
+# Function Rating Tertinggi
 def highest_rated_movie():
     highest_rated = max(movies, key=lambda movie: movie["rating"])
     return highest_rated
@@ -48,7 +48,7 @@ while True:
     if task == "1":
         genre_input = input("Masukkan genre film untuk menghitung jumlah: ")
         genre_count = count_movies_by_genre(genre_input)
-        print(f"Jumlah film genre {genre_input}: {genre_count}")
+        print(f"\n\nJumlah film genre {genre_input}: {genre_count}")
     elif task == "2":
         year_input = int(input("Masukkan tahun rilis untuk menghitung rata-rata rating: "))
         average_rating = average_rating_by_year(year_input)
