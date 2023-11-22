@@ -1,4 +1,5 @@
 # Nim Ganjil
+# NIM 351
 
 def point(x,y):
     return x,y

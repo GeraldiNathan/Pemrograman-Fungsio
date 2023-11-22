@@ -1,4 +1,5 @@
 # Nim Ganjil
+# NIM 351
 
 # lengkapi kode berikut untuk mendapatkan persamaan garis lurus bagi NIM GANJIL
 

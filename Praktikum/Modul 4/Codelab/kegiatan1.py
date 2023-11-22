@@ -1,3 +1,5 @@
+# NIM 351
+
 # Percobaan 1
 def perkalian(a):
   def dengan(b):

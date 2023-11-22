@@ -1,3 +1,5 @@
+# NIM 351
+
 import math
 
 # Funct  Transalasi
