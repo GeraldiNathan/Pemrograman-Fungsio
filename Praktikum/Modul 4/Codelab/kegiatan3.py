@@ -2,7 +2,7 @@ def title_decorator(function):
     def wrapper():
         func = function()
         make_title = func.title()
-        print(make_title + "" + "- Data is convert to title case")
+        print(make_title + " " + "-Data is convert to title case")
         return make_title
     return wrapper
 
@@ -15,6 +15,7 @@ def split_string(function):
     return wrapper
 
 
+# dekorator title dan split string
 @split_string
 @title_decorator
 def say_hi():
