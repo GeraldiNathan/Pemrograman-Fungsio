@@ -30,7 +30,6 @@ fig, ax = plt.subplots()
 produk_labels = [item[0] for item in data_transaksi]
 bar_chart = ax.bar(produk_labels, pendapatan_produk, color='green', label='Pendapatan')
 
-# Menambahkan label dan legend
 plt.xlabel('Produk')
 plt.ylabel('Pendapatan')
 plt.title('Pendapatan Produk')
