@@ -1,0 +1,1 @@
+text_width, text_height = draw.textsize(text, font=customFont)

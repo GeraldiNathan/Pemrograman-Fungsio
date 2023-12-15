@@ -8,5 +8,9 @@ brightened = enhancer.enhance(1.5)
 enhancer = ImageEnhance.Contrast(brightened)
 final = enhancer.enhance(1.2)
 
-# final.save("gyjawaw.jpg")
+final.save("brightness_contrast_image.jpg")
 final.show()
+
+# use this for original picture
+# image.show()
+# image.save("original_foto.jpg")
