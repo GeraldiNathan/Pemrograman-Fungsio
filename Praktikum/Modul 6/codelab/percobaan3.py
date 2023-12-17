@@ -1,6 +1,6 @@
 from PIL import Image, ImageOps, ImageDraw, ImageFont, ImageEnhance
 
-image = Image.open("C:\Kuliah\Semester 5\Fungsio\Praktikum\All Modules\Modules\Praktikum\Modul 6/assets\img\calvin_selfie.jpg")
+image = Image.open("C:\Kuliah\Semester 5\Fungsio\Praktikum\All Modules\Modules\Praktikum\Modul 6/codelab/assets\img\calvin_selfie.jpg")
 
 enhancer = ImageEnhance.Brightness(image)
 brightened = enhancer.enhance(1.5)

@@ -1,8 +1,8 @@
 from PIL import Image, ImageOps, ImageDraw, ImageFont
 
-img = Image.open("C:\Kuliah\Semester 5\Fungsio\Praktikum\All Modules\Modules\Praktikum\Modul 6/assets\img\calvin_selfie.jpg")
+img = Image.open("C:\Kuliah\Semester 5\Fungsio\Praktikum\All Modules\Modules\Praktikum\Modul 6\codelab/assets\img\calvin_selfie.jpg")
 
-fontPath = "C:\Kuliah\Semester 5\Fungsio\Praktikum\All Modules\Modules\Praktikum\Modul 6/assets/font\Montserrat-Italic-VariableFont_wght.ttf"
+fontPath = "C:\Kuliah\Semester 5\Fungsio\Praktikum\All Modules\Modules\Praktikum\Modul 6\codelab/assets/font\Montserrat-Italic-VariableFont_wght.ttf"
 customFont = ImageFont.truetype(fontPath, 30)
 
 
