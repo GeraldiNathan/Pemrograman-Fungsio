@@ -44,5 +44,5 @@ final_result.paste(overlay, overlay_position)
 final_result.show()
 
 # TODO 6 : Save image
-save_path = os.path.join("C:\Kuliah\Semester 5\Fungsio\Praktikum\All Modules\Modules\Praktikum\Modul 6\praktikum/result", "tugas_praktikum_enam.jpg")
+save_path = os.path.join("C:\Kuliah\Semester 5\Fungsio\Praktikum\All Modules\Modules\Praktikum\Modul 6\praktikum/result", "tugas_praktikum_enam.png")
 final_result.save(save_path)
