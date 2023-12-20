@@ -6,9 +6,7 @@ background = Image.open("C:\\Kuliah\\Semester 5\\Fungsio\\Praktikum\\All Modules
 overlay = Image.open("C:\\Kuliah\\Semester 5\\Fungsio\\Praktikum\\All Modules\\Modules\\Praktikum\\Modul 6\\praktikum\\assets\\umm.jpg")
 font_path = "C:\\Kuliah\\Semester 5\\Fungsio\\Praktikum\\All Modules\\Modules\\Praktikum\\Modul 6\\codelab\\assets\\font\\Montserrat-Italic-VariableFont_wght.ttf"
 
-
 background = background.resize((1920, 1080))
-
 
 # TODO 2 : Rotate 30 derajat & Grayscale
 rotated_bg = ImageOps.grayscale(background.copy()).rotate(30)
@@ -29,11 +27,10 @@ overlay = brightened.resize((600, 600))
 overlay_position = (600, 300)
 
 # TODO 5: Text Overlay
-padding = 170
+padding = 200
 customFont = ImageFont.truetype(font_path, 24)
 draw = ImageDraw.Draw(overlay)
 text = "INFORMATIKA JOSSS!"
-text2 = "202110370311351"
 text_width = draw.textlength(text, font=customFont)
 text_height = draw.textlength(text, font=customFont)
 
